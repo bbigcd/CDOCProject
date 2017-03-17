@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LifeCycleViewController.h
 //  CDOCProject
 //
 //  Created by chendi on 17/3/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LifeCycleViewController : UIViewController
 
 @end
-
