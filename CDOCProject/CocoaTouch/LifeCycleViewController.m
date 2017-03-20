@@ -13,7 +13,10 @@
 @end
 
 @implementation LifeCycleViewController
-
+/*
+ * 打印出来即可知道UIViewController的life cycle
+ * 部分需要UIViewController界面之间跳转才能触发
+ */
 + (void)load{
     [super load];
     NSLog(@"load");
@@ -33,10 +36,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"fdsaf"
-                                                                              style:UIBarButtonItemStylePlain
-                                                                             target:self
-                                                                             action:@selector(pushViewControllerAction)];
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"fdsaf"
+                                                             style:UIBarButtonItemStylePlain
+                                                            target:self
+                                                            action:@selector(pushViewControllerAction)];
+    self.navigationItem.rightBarButtonItem = item;
     
     NSLog(@"viewDidLoad");
 }

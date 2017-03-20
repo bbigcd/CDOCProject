@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54537C841E8029FE001F9EB8 /* UILabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54537C831E8029FE001F9EB8 /* UILabelViewController.m */; };
 		545AFA471E7C309100A4FECB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 545AFA461E7C309100A4FECB /* main.m */; };
 		545AFA4A1E7C309100A4FECB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 545AFA491E7C309100A4FECB /* AppDelegate.m */; };
 		545AFA521E7C309100A4FECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545AFA511E7C309100A4FECB /* Assets.xcassets */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54537C821E8029FE001F9EB8 /* UILabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelViewController.h; sourceTree = "<group>"; };
+		54537C831E8029FE001F9EB8 /* UILabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelViewController.m; sourceTree = "<group>"; };
 		545AFA421E7C309100A4FECB /* CDOCProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDOCProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		545AFA461E7C309100A4FECB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		545AFA481E7C309100A4FECB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,6 +40,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54537C801E80292D001F9EB8 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				54537C821E8029FE001F9EB8 /* UILabelViewController.h */,
+				54537C831E8029FE001F9EB8 /* UILabelViewController.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		54537C811E802990001F9EB8 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIButton;
+			sourceTree = "<group>";
+		};
 		545AFA391E7C309000A4FECB = {
 			isa = PBXGroup;
 			children = (
@@ -78,10 +97,12 @@
 		545AFA5C1E7C30A600A4FECB /* CocoaTouch */ = {
 			isa = PBXGroup;
 			children = (
+				54537C811E802990001F9EB8 /* UIButton */,
+				54537C801E80292D001F9EB8 /* UILabel */,
 				545AFA5D1E7C310200A4FECB /* LifeCycleViewController.h */,
 				545AFA5E1E7C310200A4FECB /* LifeCycleViewController.m */,
 			);
-			name = CocoaTouch;
+			path = CocoaTouch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +179,7 @@
 				545AFA4A1E7C309100A4FECB /* AppDelegate.m in Sources */,
 				545AFA471E7C309100A4FECB /* main.m in Sources */,
 				545AFA5F1E7C310200A4FECB /* LifeCycleViewController.m in Sources */,
+				54537C841E8029FE001F9EB8 /* UILabelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +328,7 @@
 				545AFA5B1E7C309100A4FECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
