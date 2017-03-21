@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "LifeCycleViewController.h"
 #import "UILabelViewController.h"
+#import "CategoriesViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[UILabelViewController alloc] init]];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[CategoriesViewController alloc] init]];
     [self.window makeKeyAndVisible];
     return YES;
 }

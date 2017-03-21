@@ -17,10 +17,10 @@
  * 打印出来即可知道UIViewController的life cycle
  * 部分需要UIViewController界面之间跳转才能触发
  */
-+ (void)load{
-    [super load];
-    NSLog(@"load");
-}
+//+ (void)load{
+//    [super load];
+//    NSLog(@"..load");
+//}
 
 + (void)initialize{
     [super initialize];
