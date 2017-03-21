@@ -47,7 +47,11 @@
     //当给定的布局无法显示完全的时候
 //    label.lineBreakMode = NSLineBreakByTruncatingTail;
     
-    label.allowsDefaultTighteningForTruncation = YES;
+//    label.allowsDefaultTighteningForTruncation = YES;
+    
+//    label.baselineAdjustment = UIBaselineAdjustmentAlignCenters;
+//    label.minimumScaleFactor = 0.1;
+    label.userInteractionEnabled = YES;
     
     return label;
 }
