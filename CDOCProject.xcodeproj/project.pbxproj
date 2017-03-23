@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54398A0A1E842C030063CF16 /* FactoryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 54398A091E842C030063CF16 /* FactoryButton.m */; };
+		54398A0D1E842E4F0063CF16 /* FactoryLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54398A0C1E842E4F0063CF16 /* FactoryLabel.m */; };
 		54537C841E8029FE001F9EB8 /* UILabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54537C831E8029FE001F9EB8 /* UILabelViewController.m */; };
 		54537C881E818BEF001F9EB8 /* CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54537C871E818BEF001F9EB8 /* CategoriesViewController.m */; };
 		54537C8B1E818C5C001F9EB8 /* NSDateFormatter+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 54537C8A1E818C5C001F9EB8 /* NSDateFormatter+Utils.m */; };
@@ -18,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54398A081E842C030063CF16 /* FactoryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryButton.h; sourceTree = "<group>"; };
+		54398A091E842C030063CF16 /* FactoryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryButton.m; sourceTree = "<group>"; };
+		54398A0B1E842E4F0063CF16 /* FactoryLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryLabel.h; sourceTree = "<group>"; };
+		54398A0C1E842E4F0063CF16 /* FactoryLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryLabel.m; sourceTree = "<group>"; };
 		54537C821E8029FE001F9EB8 /* UILabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelViewController.h; sourceTree = "<group>"; };
 		54537C831E8029FE001F9EB8 /* UILabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelViewController.m; sourceTree = "<group>"; };
 		54537C861E818BEF001F9EB8 /* CategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesViewController.h; sourceTree = "<group>"; };
@@ -46,6 +52,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54398A071E842BBE0063CF16 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				54398A081E842C030063CF16 /* FactoryButton.h */,
+				54398A091E842C030063CF16 /* FactoryButton.m */,
+				54398A0B1E842E4F0063CF16 /* FactoryLabel.h */,
+				54398A0C1E842E4F0063CF16 /* FactoryLabel.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
 		54537C801E80292D001F9EB8 /* UILabel */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +131,7 @@
 		545AFA5C1E7C30A600A4FECB /* CocoaTouch */ = {
 			isa = PBXGroup;
 			children = (
+				54398A071E842BBE0063CF16 /* Factory */,
 				54537C851E818BC3001F9EB8 /* Categories */,
 				54537C811E802990001F9EB8 /* UIButton */,
 				54537C801E80292D001F9EB8 /* UILabel */,
@@ -195,10 +213,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				545AFA4A1E7C309100A4FECB /* AppDelegate.m in Sources */,
+				54398A0D1E842E4F0063CF16 /* FactoryLabel.m in Sources */,
 				545AFA471E7C309100A4FECB /* main.m in Sources */,
 				545AFA5F1E7C310200A4FECB /* LifeCycleViewController.m in Sources */,
 				54537C881E818BEF001F9EB8 /* CategoriesViewController.m in Sources */,
 				54537C841E8029FE001F9EB8 /* UILabelViewController.m in Sources */,
+				54398A0A1E842C030063CF16 /* FactoryButton.m in Sources */,
 				54537C8B1E818C5C001F9EB8 /* NSDateFormatter+Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
