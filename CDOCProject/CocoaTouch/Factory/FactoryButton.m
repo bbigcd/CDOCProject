@@ -10,11 +10,11 @@
 
 @implementation FactoryButton
 
-+ (UIButton *)initWithTitle:(NSString *)title{
++ (UIButton *)initWithTitle:(NSString *)title SelectTitle:(NSString *)selectTitle{
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     
     [button setTitle:title forState:UIControlStateNormal];
-    
+    [button setTitle:selectTitle forState:UIControlStateSelected];
     
     return button;
 }

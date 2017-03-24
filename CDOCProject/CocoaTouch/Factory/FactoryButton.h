@@ -18,7 +18,7 @@
  @param title text
  @return UIButton
  */
-+ (UIButton *)initWithTitle:(NSString *)title;
++ (UIButton *)initWithTitle:(NSString *)title SelectTitle:(NSString *)selectTitle;
 
 
 @end
