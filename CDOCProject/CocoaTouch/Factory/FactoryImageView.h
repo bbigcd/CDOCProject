@@ -11,6 +11,7 @@
 
 @interface FactoryImageView : NSObject
 
-+ (UIImageView *)initWithImage:(UIImage *)image;
++ (UIImageView *)initWithImage:(UIImage *)image
+                    HightImage:(UIImage *)heightImage;
 
 @end

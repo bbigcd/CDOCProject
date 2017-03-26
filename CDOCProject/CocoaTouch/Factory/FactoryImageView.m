@@ -10,10 +10,11 @@
 
 @implementation FactoryImageView
 
-+ (UIImageView *)initWithImage:(UIImage *)image{
++ (UIImageView *)initWithImage:(UIImage *)image
+                    HightImage:(UIImage *)heightImage{
     UIImageView *imageView = [[UIImageView alloc] init];
     imageView.image = image;
-    
+    imageView.highlightedImage = heightImage;
     return imageView;
 }
 
